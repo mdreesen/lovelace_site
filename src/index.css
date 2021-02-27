@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #EAE2CF;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,16 +14,97 @@ nav {
   position: absolute;
 }
 
+.navbar {
+      /* position: relative; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.navbar-link-container {
+  text-align: center;
+  justify-content: center;
+}
+
 /* Homepage CSS */
 .imgContainer {
-  background-image: url("./images/allison-wopata-4qt6g8Aabcw-unsplash.jpg");
+  background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
   background-position: center;
-  padding: 600px 0px 0px 0px;
-  margin: 80px 80px 0px 80px;
+  padding: 300px 0px 350px 0px;
+  margin: 30px 0px 0px 0px;
   display: flex;
   background-size: cover;
   max-width: 100%;
   height: auto;
+}
+
+.about-business {
+  margin: 10rem 0 10rem 0;
+  padding: 20px;
+
+}
+
+.mission-header {
+  border-bottom: solid;
+  color: #013240;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 950px) {
+  .imgContainer {
+    background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
+    background-position: center;
+    padding: 200px 0px 250px 0px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;  
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .imgContainer {
+    background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
+    background-position: center;
+    padding: 200px 0px 150px 0px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;  
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .imgContainer {
+    background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
+    background-position: center;
+    padding: 200px 0px 60px 0px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;  
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .imgContainer {
+    background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
+    background-position: center;
+    padding: 150px 0px 40px 0px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;  
+  }
 }
 
 code {
