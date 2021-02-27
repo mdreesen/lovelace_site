@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar CSS */
+nav {
+  background: transparent;
+  position: absolute;
+}
+
+/* Homepage CSS */
 .imgContainer {
   background-image: url("./images/allison-wopata-4qt6g8Aabcw-unsplash.jpg");
   background-position: center;
