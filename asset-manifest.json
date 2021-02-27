@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mdreesen/lovelace-site/static/css/main.e49ccc87.chunk.css",
-    "main.js": "/mdreesen/lovelace-site/static/js/main.9d532a5b.chunk.js",
-    "main.js.map": "/mdreesen/lovelace-site/static/js/main.9d532a5b.chunk.js.map",
-    "runtime-main.js": "/mdreesen/lovelace-site/static/js/runtime-main.04fbb570.js",
-    "runtime-main.js.map": "/mdreesen/lovelace-site/static/js/runtime-main.04fbb570.js.map",
-    "static/js/2.60eddccd.chunk.js": "/mdreesen/lovelace-site/static/js/2.60eddccd.chunk.js",
-    "static/js/2.60eddccd.chunk.js.map": "/mdreesen/lovelace-site/static/js/2.60eddccd.chunk.js.map",
-    "static/js/3.4ce17279.chunk.js": "/mdreesen/lovelace-site/static/js/3.4ce17279.chunk.js",
-    "static/js/3.4ce17279.chunk.js.map": "/mdreesen/lovelace-site/static/js/3.4ce17279.chunk.js.map",
-    "index.html": "/mdreesen/lovelace-site/index.html",
-    "service-worker.js": "/mdreesen/lovelace-site/service-worker.js",
-    "service-worker.js.map": "/mdreesen/lovelace-site/service-worker.js.map",
-    "static/css/main.e49ccc87.chunk.css.map": "/mdreesen/lovelace-site/static/css/main.e49ccc87.chunk.css.map",
-    "static/js/2.60eddccd.chunk.js.LICENSE.txt": "/mdreesen/lovelace-site/static/js/2.60eddccd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/mdreesen/lovelace-site/static/media/dexter-chatuluka-OyvZbtXJRlA-unsplash.22dc21f4.jpg"
+    "main.css": "/lovelace-site/static/css/main.49c42290.chunk.css",
+    "main.js": "/lovelace-site/static/js/main.796cc44e.chunk.js",
+    "main.js.map": "/lovelace-site/static/js/main.796cc44e.chunk.js.map",
+    "runtime-main.js": "/lovelace-site/static/js/runtime-main.54acfb6b.js",
+    "runtime-main.js.map": "/lovelace-site/static/js/runtime-main.54acfb6b.js.map",
+    "static/js/2.60eddccd.chunk.js": "/lovelace-site/static/js/2.60eddccd.chunk.js",
+    "static/js/2.60eddccd.chunk.js.map": "/lovelace-site/static/js/2.60eddccd.chunk.js.map",
+    "static/js/3.4ce17279.chunk.js": "/lovelace-site/static/js/3.4ce17279.chunk.js",
+    "static/js/3.4ce17279.chunk.js.map": "/lovelace-site/static/js/3.4ce17279.chunk.js.map",
+    "index.html": "/lovelace-site/index.html",
+    "service-worker.js": "/lovelace-site/service-worker.js",
+    "service-worker.js.map": "/lovelace-site/service-worker.js.map",
+    "static/css/main.49c42290.chunk.css.map": "/lovelace-site/static/css/main.49c42290.chunk.css.map",
+    "static/js/2.60eddccd.chunk.js.LICENSE.txt": "/lovelace-site/static/js/2.60eddccd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/lovelace-site/static/media/dexter-chatuluka-OyvZbtXJRlA-unsplash.22dc21f4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.04fbb570.js",
+    "static/js/runtime-main.54acfb6b.js",
     "static/js/2.60eddccd.chunk.js",
-    "static/css/main.e49ccc87.chunk.css",
-    "static/js/main.9d532a5b.chunk.js"
+    "static/css/main.49c42290.chunk.css",
+    "static/js/main.796cc44e.chunk.js"
   ]
 }
