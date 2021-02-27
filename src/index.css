@@ -30,6 +30,10 @@ nav {
   justify-content: center;
 }
 
+.nav-link:hover {
+  color: #013240;
+}
+
 /* Homepage CSS */
 .imgContainer {
   background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
