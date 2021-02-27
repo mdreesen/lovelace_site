@@ -7,6 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.imgContainer {
+  background-image: url("./images/allison-wopata-4qt6g8Aabcw-unsplash.jpg");
+  background-position: center;
+  padding: 600px 0px 0px 0px;
+  margin: 80px 80px 0px 80px;
+  display: flex;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
