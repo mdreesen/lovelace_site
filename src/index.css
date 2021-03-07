@@ -30,10 +30,6 @@ nav {
   justify-content: center;
 }
 
-.nav-link:hover {
-  color: #013240;
-}
-
 /* Homepage CSS */
 .imgContainer {
   background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
@@ -73,61 +69,102 @@ nav {
 .p-title {
   font-weight: 700;
 }
-.service-modal-btn {
-  background-color: #013240;
-  border: none;
 
-  box-shadow: #013240;
-}
-
-.service-modal-btn:hover {
-  background-color: black;
-  border: none;
-}
-
-.service-modal-btn:focus {
-  background-color: black;
-  border: none;
-  outline: none;
-
-  box-shadow: none;
-}
-
-.btn-primary:focus {
-  background-color: black;
-  border: none;
-
-  box-shadow: #013240;
-}
-
-.btn-primary:active {
-  background-color: #013240;
-  border: none;
-  box-shadow: #013240;
-
-}
-
-.service-type-section-demo2 {
-  margin-top: 80px;
-}
-
-.service-type-section-demo3 {
-  margin-top: 80px;
-  align-items: left;
+.service-title {
   text-align: left;
-  padding-left: 40px;
+  padding: 10px 0px 10px 122px;
+
 }
 
-.service-p-container-demo4 {
-  padding: 70px 90px 70px 90px;
+.service-title-two {
+  padding: 10px 0px 10px 269px;
 }
 
-.demo-p4 {
+.p-text-container {
+  position: relative;
   text-align: left;
+  padding: 10px 0px 10px 122px;
+  width: 60%;
+}
+
+.p-text-container-two {
+  position: relative;
+  padding: 10px 0px 10px 422px;
+  width: 177%;
+  text-align: left;
+  width: 100%;
+}
+
+.service-type-section {
+  margin-top: 70px;
+}
+
+.serviceImg {
+  position: absolute;
+  background-position: center;
+  /* padding: 300px 0px 350px 0px; */
+  margin: 30px 0px 0px 0px;
+  /* display: flex; */
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  height: 527px;
+  z-index: 1;
+  width: 100%;
+}
+
+.serviceImgLaborSupport {
+  position: absolute;
+  background-position: center;
+  /* padding: 300px 0px 350px 0px; */
+  margin: 101px 0px 0px 155px;
+  /* display: flex; */
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  height: 527px;
+  z-index: 1;
+
+  box-shadow: 0 1px 35px -4px black;
+  
+}
+
+.serviceImgPrenatal {
+  position: absolute;
+  background-position: center;
+  /* padding: 300px 0px 350px 0px; */
+  margin: 101px 0px 0px 155px;
+  /* display: flex; */
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  height: 527px;
+  z-index: 1;
+}
+
+.service-image-container {
+  position: relative;
 }
 
 
 /* media queries */
+
+@media only screen and (max-width: 900px) {
+  .serviceImgLaborSupport {
+    position: relative;
+    background-position: center;
+    /* padding: 300px 0px 350px 0px; */
+    display: block;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    height: 527px;
+    z-index: 1;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media only screen and (max-width: 950px) {
   .imgContainer {
@@ -165,6 +202,33 @@ nav {
     background-size: cover;
     max-width: 100%;
     height: auto;  
+  }
+  .serviceImgLaborSupport {
+    position: relative;
+    background-position: center;
+    /* padding: 300px 0px 350px 0px; */
+    display: block;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    height: 327px;
+    z-index: 1;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-text-container {
+    position: relative;
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+    width: 60%;
+  }
+
+  .service-title {
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+  
   }
 }
 
