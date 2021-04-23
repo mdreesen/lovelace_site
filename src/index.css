@@ -52,9 +52,13 @@ nav {
   justify-content: center;
 }
 
+.logo-image-wrapper {
+  padding: 0px 0px 0px 0px;
+}
+
 .logo-image {
   /* margin-top: -63rem; */
-  width: 100%;
+  width: 50%;
 }
 
 .about-business {

@@ -10,8 +10,10 @@ function Home() {
             <section className="topSection">
                 <div className="image-wrapper-home">
                     <div className="imgContainer">
+                    <div className="logo-image-wrapper">
                     <img className="logo-image" src={logo}></img>
 
+                    </div>
                         <img className="homepageImage" src={homepageImage}></img>
                     </div>
                 </div>
