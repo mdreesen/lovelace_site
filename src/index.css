@@ -15,14 +15,14 @@ nav {
 }
 
 .navbar {
-      /* position: relative; */
-    /* display: flex; */
+    position: absolute;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: .5rem;
+    width: 100%;
 }
 
 .navbar-link-container {
@@ -31,15 +31,31 @@ nav {
 }
 
 /* Homepage CSS */
+
 .imgContainer {
-  background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
+  justify-content: center;
+  align-items: center;
+}
+
+.homepageImage {
   background-position: center;
-  padding: 300px 0px 350px 0px;
-  margin: 30px 0px 0px 0px;
+  /* padding: 400px 0px 350px 0px; */
+  /* margin: 30px 0px 0px 0px; */
   display: flex;
   background-size: cover;
   max-width: 100%;
+  justify-content: center;
   height: auto;
+  align-items: center;
+}
+
+.image-wrapper-home {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  margin-top: -63rem;
 }
 
 .about-business {
@@ -55,7 +71,26 @@ nav {
 
 /* About Page */
 .brianna-image-container {
-  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: -webkit-center;
+
+}
+
+.image-wrapper {
+  width: 50%;
+}
+
+.briannaImage {
+  background-position: center;
+  padding: 30px 0px 30px 0px;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-text-hello {
@@ -153,7 +188,7 @@ nav {
   .serviceImgLaborSupport {
     position: relative;
     background-position: center;
-    /* padding: 300px 0px 350px 0px; */
+    padding: 300px 0px 350px 0px;
     display: block;
     background-size: cover;
     max-width: 100%;
@@ -166,7 +201,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 950px) {
+/* @media only screen and (max-width: 950px) {
   .imgContainer {
     background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
     background-position: center;
@@ -177,9 +212,9 @@ nav {
     max-width: 100%;
     height: auto;  
   }
-}
+} */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .imgContainer {
     background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
     background-position: center;
@@ -190,10 +225,10 @@ nav {
     max-width: 100%;
     height: auto;  
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
-  .imgContainer {
+  /* .imgContainer {
     background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
     background-position: center;
     padding: 200px 0px 60px 0px;
@@ -202,7 +237,7 @@ nav {
     background-size: cover;
     max-width: 100%;
     height: auto;  
-  }
+  } */
   .serviceImgLaborSupport {
     position: relative;
     background-position: center;
@@ -232,7 +267,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .imgContainer {
     background-image: url("./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg");
     background-position: center;
@@ -243,7 +278,7 @@ nav {
     max-width: 100%;
     height: auto;  
   }
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

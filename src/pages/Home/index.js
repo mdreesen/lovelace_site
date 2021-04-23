@@ -1,10 +1,19 @@
 import React from 'react';
 
+// import images
+import logo from '../../images/logo.png'
+import homepageImage from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg'
+
 function Home() {
     return(
         <div>
             <section className="topSection">
-                <div className="imgContainer"></div>
+                <div className="image-wrapper-home">
+                    <div className="imgContainer">
+                        <img className="homepageImage" src={homepageImage}></img>
+                        <img className="logo-image" src={logo}></img>
+                    </div>
+                </div>
             </section>
             <section>
                 <div className="about-business">

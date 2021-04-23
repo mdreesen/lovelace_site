@@ -1,9 +1,16 @@
 import React from 'react';
 
+// import images
+import briannaImage from '../../images/briannaImage.jpeg';
+
 const About = () => {
     return(
         <div>
-        <div className="brianna-image-container">Image Here</div>
+            <div className="brianna-image-container">
+            <div className="image-wrapper">
+                <img className="briannaImage" src={briannaImage}></img>
+            </div>
+         </div>
             <p className="about-text-hello">Hello!</p>
             <p className="about-text">I am Brianna Lovelace. My birth work journey started a little over 3 years ago when I was pregnant with my first child. We hired her not fully sure of the decision or understanding her worth in that moment. I went on to birth my son with no pain medicine in the hospital with a midwife. My doula was was phenomenal and helped the labor and birth to go smoothly. I remember telling her at our postpartum visit that I thought I wanted to be a doula. I wanted to help women achieve the birth of their dreams. But as soon as the thought came, it left. I had a newborn and starting a new career, business, etc just wasn’t in the cards.
 
