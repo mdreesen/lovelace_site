@@ -23,6 +23,8 @@ nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
   width: 100%;
+  font-family: Sacramento;
+  font-size: 2rem;
 }
 
 .navbar-link-container {
@@ -31,6 +33,18 @@ nav {
 }
 
 /* Homepage CSS */
+
+.topSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/images/allison-wopata-4qt6g8Aabcw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15%;
+  z-index: 9999;
+
+}
 
 .imgContainer {
   justify-content: center;
@@ -41,7 +55,9 @@ nav {
   background-position: center;
   display: flex;
   background-size: cover;
-  max-width: -webkit-fill-available;
+  /* max-width: -webkit-fill-available; */
+  width: 100%;
+  height: 100vh;
   justify-content: center;
   height: auto;
   align-items: center;
@@ -58,7 +74,8 @@ nav {
 
 .logo-image {
   /* margin-top: -63rem; */
-  width: 50%;
+  width: 100%;
+  filter: brightness(160%);
 }
 
 .about-business {
