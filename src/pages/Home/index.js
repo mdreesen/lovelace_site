@@ -12,7 +12,7 @@ function Home() {
                     <div className="imgContainer">
                         <div className="logo-image-wrapper">
                             {/* <img className="homepageImage" src={homepageImage}></img> */}
-                            <img className="logo-image" src={logo}></img>
+                            {/* <img className="logo-image" src={logo}></img> */}
                         </div>
                     </div>
                 </div>

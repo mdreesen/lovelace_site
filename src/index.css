@@ -10,8 +10,8 @@ body {
 
 /* Navbar CSS */
 nav {
-  background: transparent;
   position: absolute;
+  background: c;
 }
 
 .page-header {
@@ -19,17 +19,35 @@ nav {
   /* margin: 20%; */
 }
 
+.logo-nav {
+  filter: brightness(160%);
+}
+
 .navbar {
+  /* background: url('./images/navbar-theme-two.jpg'); */
   position: relative;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
   font-family: Sacramento;
   font-size: 2rem;
+  /* background-color: black; */
+  opacity: .7;
+  position: absolute;
+}
+.nav-link {
+  color: rgba(255,255,255,1);
+  padding: 0px;
+}
+
+.nav-link:hover {
+  color: #013240;
+  filter: brightness(160%);
+
 }
 
 .navbar-link-container {
@@ -48,6 +66,7 @@ nav {
   flex-wrap: wrap;
   padding: 15%;
   z-index: 9999;
+  height: 100vh;
 }
 
 .imgContainer {
@@ -98,7 +117,10 @@ nav {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  overflow:scroll
+  background: url('./images/briannaImage.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .brianna-image-container {
@@ -127,18 +149,19 @@ nav {
   margin: 30px 0px 0px 0px; */
   background-size: cover;
   width: 100%;
-  background: url('./images/briannaImage.jpeg') repeat;
+  /* background: url('./images/briannaImage.jpeg'); */
   position: fixed;
+  background-color: #EAE2CF;
 }
 
 .about-text-container {
   margin: 30% 0;
   z-index: 100;
 }
-
+/* 
 .image-container-inner {
   margin: 10%;
-}
+} */
 
 /* .about-text-hello {
   padding: 60px 0px 0px 0px
