@@ -1,8 +1,7 @@
 import React from 'react';
 
-// import images
-import logo from '../../images/logo.png'
-import homepageImage from '../../images/allison-wopata-4qt6g8Aabcw-unsplash.jpg'
+// import pictures
+import brianna from '../../images/briannaImage.jpeg';
 
 function Home() {
     return(
@@ -11,8 +10,6 @@ function Home() {
                 <div className="image-wrapper-home">
                     <div className="imgContainer">
                         <div className="logo-image-wrapper">
-                            {/* <img className="homepageImage" src={homepageImage}></img> */}
-                            {/* <img className="logo-image" src={logo}></img> */}
                         </div>
                     </div>
                 </div>
