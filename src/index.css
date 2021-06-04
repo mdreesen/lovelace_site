@@ -14,6 +14,10 @@ nav {
   background: c;
 }
 
+.react-parallax-bgimage {
+  z-index: -1;
+}
+
 .logo-nav {
   /* filter: brightness(160%); */
   width: 12%;
@@ -34,7 +38,6 @@ nav {
 }
 
 .navbar {
-  /* background: url('./images/navbar-theme-two.jpg'); */
   position: relative;
   flex-wrap: wrap;
   text-align: center;
@@ -108,16 +111,9 @@ nav {
 }
 
 .logo-image {
-  /* margin-top: -63rem; */
   width: 100%;
   /* filter: brightness(160%); */
 }
-
-/* .about-business {
-  margin: 10rem 0 10rem 0;
-  padding: 20px;
-
-} */
 
 .mission-header {
   border-bottom: solid;
@@ -136,11 +132,11 @@ nav {
 
 .brianna-image {
   width: 100%;
-  height: 130vh;
-  background-image: url('./images/briannaNew.jpeg');
+  height: 72vh;
   background-size: cover;
   background-position: center;
   justify-content: center;
+  z-index: -1;
 }
 
 .about-section-two {
@@ -192,22 +188,15 @@ nav {
 
 .family-image-container {
   width: 100%;
+  text-align: center;
+  margin-bottom: 23px;
 }
 
 .family-image {
-  width: 20%;
+  width: 35%;
 }
 
 /* Service Page */
-
-.servicehero {
-    /* width: 100%;
-    height: 100vh; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('./images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg'); */
-    /* background-size: cover;
-    background-position: center;
-    justify-content: center; */
-  }
 
   .card {
     margin-top: 1rem;

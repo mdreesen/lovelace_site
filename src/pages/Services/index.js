@@ -2,7 +2,7 @@ import React from 'react';
 
 
 // import pictures
-import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg';
+// import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg';
 
 const Services = () => {
     return(

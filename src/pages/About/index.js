@@ -1,15 +1,15 @@
 import React from 'react';
+import { Parallax } from 'react-parallax';
 
 // import images
+import briannaImage from '../../images/briannaNew.jpeg';
 import familyImage from '../../images/familyImage.jpeg';
 
 const About = () => {
     return (
-        <div className="about-page">
+        <div>
             <div className="about-container">
-                <div className="img-container">
-                    <img className="brianna-image"></img>
-                </div>
+                <Parallax className="brianna-image" bgImage={ briannaImage } strength={500}></Parallax>
                 <div className="about-section-two">
                 <div className="about-text-container">
                     <div className="about-para-container">
@@ -48,8 +48,8 @@ const About = () => {
                         <p className="about-text-four">I can’t wait to learn more about you! 
                         Please reach out to schedule a free consultation so 
                         that we can better get to know each other & see if we might be a good fit.</p>
-
-                        <div className="family-image-container" >
+                        {/* <Parallax className="family-image" bgImage={ familyImage } strength={500}></Parallax> */}
+                        <div className="family-image-container">
                             <img className="family-image" src={familyImage}></img>
                         </div>
                     </div>
