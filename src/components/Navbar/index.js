@@ -7,6 +7,7 @@ import logo from '../../images/logo.png'
 
 
 const Navbar = () => {
+
     return(
         <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
@@ -24,9 +25,6 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/services">services</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/appointments">appointments</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">contact</Link>

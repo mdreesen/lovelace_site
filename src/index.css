@@ -14,13 +14,23 @@ nav {
   background: c;
 }
 
-.page-header {
-  /* margin-bottom: 30px; */
-  /* margin: 20%; */
+.logo-nav {
+  /* filter: brightness(160%); */
+  width: 12%;
 }
 
-.logo-nav {
-  filter: brightness(160%);
+.homepage-logo {
+  width: 90%;
+  margin-top: 30%;
+}
+
+.homepage-statement-container {
+  margin-top: 12%;
+  margin-bottom: 3rem;
+}
+
+.homepage-statement {
+  margin-bottom: 3rem;
 }
 
 .navbar {
@@ -33,9 +43,8 @@ nav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
-  font-family: Sacramento;
   font-size: 2rem;
-  /* background-color: black; */
+  background-color: black;
   opacity: .7;
   position: absolute;
 }
@@ -51,7 +60,7 @@ nav {
 
 .nav-link:hover {
   color: #013240;
-  filter: brightness(160%);
+  /* filter: brightness(160%); */
 
 }
 
@@ -63,7 +72,6 @@ nav {
 /* Homepage CSS */
 
 .topSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/images/allison-wopata-4qt6g8Aabcw-unsplash.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -102,7 +110,7 @@ nav {
 .logo-image {
   /* margin-top: -63rem; */
   width: 100%;
-  filter: brightness(160%);
+  /* filter: brightness(160%); */
 }
 
 /* .about-business {
@@ -118,30 +126,20 @@ nav {
 
 /* About Page */
 
-.about-page {
-  background-color: gray;
-}
-
 .container {
-  /* padding: 0px;
-  margin: 0px; */
   width: 100%;
 }
 
 .img-container {
   width: 100%;
-  /* float: right; */
 }
 
 .brianna-image {
   width: 100%;
   height: 130vh;
-  /* background-repeat: repeat; */
-  /* float: right; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/briannaImage.jpeg');
+  background-image: url('./images/briannaNew.jpeg');
   background-size: cover;
   background-position: center;
-  /* display: flex; */
   justify-content: center;
 }
 
@@ -158,8 +156,6 @@ nav {
 }
 
 .about-section-two {
-    /* background-color: black;
-    opacity: .7; */
     color: white;
 }
 
@@ -167,9 +163,6 @@ nav {
   z-index: 100;
 }
 
-.about-para-container {
-  margin-top: -35%;
-}
 .brianna-name-title {
   padding: 0px 20px 0px 20px;
   color: white;
@@ -203,7 +196,6 @@ nav {
   }
 
   .card {
-    /* box-shadow: 0 8px 6px -6px black; */
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -229,9 +221,7 @@ nav {
 .serviceImg {
   position: absolute;
   background-position: center;
-  /* padding: 300px 0px 350px 0px; */
   margin: 30px 0px 0px 0px;
-  /* display: flex; */
   background-size: cover;
   max-width: 100%;
   height: auto;
@@ -243,9 +233,7 @@ nav {
 .serviceImgLaborSupport {
   position: absolute;
   background-position: center;
-  /* padding: 300px 0px 350px 0px; */
   margin: 101px 0px 0px 155px;
-  /* display: flex; */
   background-size: cover;
   max-width: 100%;
   height: auto;
@@ -256,9 +244,7 @@ nav {
 .serviceImgPrenatal {
   position: absolute;
   background-position: center;
-  /* padding: 300px 0px 350px 0px; */
   margin: 101px 0px 0px 155px;
-  /* display: flex; */
   background-size: cover;
   max-width: 100%;
   height: auto;
@@ -294,7 +280,6 @@ nav {
   .serviceImgLaborSupport {
     position: relative;
     background-position: center;
-    /* padding: 300px 0px 350px 0px; */
     display: block;
     background-size: cover;
     max-width: 100%;
