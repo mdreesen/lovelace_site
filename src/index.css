@@ -259,6 +259,9 @@ nav {
   position: relative;
 }
 
+.service-text-container {
+  text-align: center;
+}
 
 /* media queries */
 
