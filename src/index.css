@@ -268,18 +268,18 @@ nav {
 .dropdown {
   height: 60vh;
   /* background: white; */
-  display: flex;
+  display: column;
   justify-content: space-around;
 
 }
 
-.expecting-dropdown, .postpartum-dropdown, .parenting-dropdown, .wellness-dropdown { 
-  /* position: relative; */
+.expecting-dropdown, .postpartum-dropdown, .parenting-dropdown, .wellness-dropdown::after { 
+  display: block;
 }
 
 
 .expecting-dropdown ul, .postpartum-dropdown ul, .parenting-dropdown ul, .wellness-dropdown ul {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0px;
   /* margin: 20px; */
   /* width: 200px; */
@@ -291,6 +291,23 @@ nav {
   pointer-events: none;
   transform: translateY(-10px);
   transition: all 0.4s ease;
+}
+
+.expecting-dropdown ul, .postpartum-dropdown ul, .parenting-dropdown ul, .wellness-dropdown ul:after {
+  /* position: absolute; */
+  bottom: 0px;
+  /* margin: 20px; */
+  /* width: 200px; */
+  /* height: 200px; */
+  /* justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease; */
+  height: 20px;
+  /* padding: 20px; */
 }
 
 .dropdown button {
@@ -312,6 +329,7 @@ nav {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
+  /* padding: 20px; */
 }
 
 /* media queries */
