@@ -2,7 +2,37 @@ import React from 'react';
 
 function Servicedropdown() {
     return (
-        <div>this is the service dropdown</div>
+        <div className="dropdown">
+
+            <div className="expecting-dropdown">
+                <button>Expecting</button>
+                <ul>
+                    <p>This is the expecting dropdown</p>
+                </ul>
+            </div>
+
+            <div className="postpartum-dropdown">
+            <button>Postpartum</button>
+                <ul>
+                    <p>This is the expecting dropdown</p>
+                </ul>
+            </div>
+
+            <div className="parenting-dropdown">
+            <button>Parenting</button>
+                <ul>
+                    <p>This is the expecting dropdown</p>
+                </ul>
+            </div>
+
+            <div className="wellness-dropdown">
+            <button>Wellness</button>
+                <ul>
+                    <p>This is the expecting dropdown</p>
+                </ul>
+            </div>
+
+        </div>
     );
 }
 

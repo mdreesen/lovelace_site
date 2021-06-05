@@ -261,6 +261,57 @@ nav {
 
 .service-text-container {
   text-align: center;
+  margin: 8rem;
+
+}
+
+.dropdown {
+  height: 60vh;
+  /* background: white; */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.expecting-dropdown, .postpartum-dropdown, .parenting-dropdown, .wellness-dropdown { 
+  /* position: relative; */
+}
+
+
+.expecting-dropdown ul, .postpartum-dropdown ul, .parenting-dropdown ul, .wellness-dropdown ul {
+  position: absolute;
+  bottom: 0px;
+  /* margin: 20px; */
+  /* width: 200px; */
+  /* height: 200px; */
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.dropdown button:hover {
+  color: rgb(75, 75, 75);
+}
+
+/* going over button, then adding style to the ul*/
+.expecting-dropdown button:focus + ul,
+.postpartum-dropdown button:focus + ul,
+.parenting-dropdown button:focus + ul,
+.wellness-dropdown button:focus + ul  {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
 }
 
 /* media queries */

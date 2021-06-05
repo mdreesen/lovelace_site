@@ -50,7 +50,7 @@ const About = () => {
                         that we can better get to know each other & see if we might be a good fit.</p>
                         {/* <Parallax className="family-image" bgImage={ familyImage } strength={500}></Parallax> */}
                         <div className="family-image-container">
-                            <img className="family-image" src={familyImage}></img>
+                            <img alt="family" className="family-image" src={familyImage}></img>
                         </div>
                     </div>
                 </div>
