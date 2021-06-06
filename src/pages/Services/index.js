@@ -3,7 +3,6 @@ import { Parallax } from 'react-parallax';
 
 // import components
 import Servicedropdown from '../../components/Servicedropdown';
-import ServicedropdownTwo from '../../components/ServicedropdownTwo';
 
 // import pictures
 import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg';
@@ -11,7 +10,7 @@ import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg'
 const Services = () => {
     return(
         <div>
-        <Parallax className="brianna-image" bgImage={ servicehero } strength={500}></Parallax>
+        <Parallax className="service-image" bgImage={ servicehero } strength={500}></Parallax>
         <div className="service-text-container">
             <p>From Childbirth to lactation support to baby wearing training, 
             I am here to educate and assist expecting and postpartum mothers 
@@ -20,7 +19,7 @@ const Services = () => {
         </div>
 
         {/* <Servicedropdown /> */}
-        <ServicedropdownTwo />
+        <Servicedropdown />
         </div>
     );
 }

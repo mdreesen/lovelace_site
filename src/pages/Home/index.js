@@ -12,7 +12,7 @@ function Home() {
                 <div className="image-wrapper-home">
                     <div className="imgContainer">
                         <div className="logo-image-wrapper">
-                        <img className="homepage-logo" src={logoImage}></img>
+                        <img alt="logo wild beginnings" className="homepage-logo" src={logoImage}></img>
                         </div>
                     </div>
                 </div>

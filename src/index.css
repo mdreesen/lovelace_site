@@ -132,11 +132,20 @@ nav {
 
 .brianna-image {
   width: 100%;
-  height: 72vh;
+  height: 90vh;
   background-size: cover;
   background-position: center;
   justify-content: center;
   z-index: -1;
+}
+.service-image {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  z-index: -1;
+  /* filter: brightness(0.4); */
 }
 
 .about-section-two {
@@ -165,7 +174,7 @@ nav {
 }
 
 .qualification-container {
-  padding: 30px 20px 30px 20px;
+  padding-left: 20px;
 }
 .qualification {
   text-align: left;
@@ -193,7 +202,7 @@ nav {
 }
 
 .family-image {
-  width: 35%;
+  width: 50%;
 }
 
 /* Service Page */
@@ -279,13 +288,15 @@ nav {
 }
 .menu-link {
   display: block;
-  padding: 16px 20px;
+  padding: 16px 0px;
   color: black;
   position: relative;
+  font-weight: 600;
+  letter-spacing: 1.7px;
 }
 .menu-link:hover {
   display: block;
-  padding: 16px 20px;
+  padding: 16px 0px;
   color: #013240;
   text-decoration: none;
   position: relative;
@@ -305,9 +316,9 @@ nav {
   padding: 16px 26px;
   margin: 4px 0;
   position: relative;
-  color: white;
-  background-color: rgb(75, 75, 75);
-  
+  /* color: white; */
+  /* background-color: rgb(75, 75, 75); */
+
 }
 .imenu p:before{
   content: "";
@@ -323,51 +334,65 @@ nav {
 
 /* media queries */
 
-@media only screen and (max-width: 900px) {
-  .serviceImgLaborSupport {
-    position: relative;
-    background-position: center;
-    padding: 300px 0px 350px 0px;
-    display: block;
+@media only screen and (max-width: 1080px) {
+  .brianna-image {
+    width: 100%;
+    height: 65vh;
     background-size: cover;
-    max-width: 100%;
-    height: auto;
-    height: 527px;
-    z-index: 1;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  .service-image {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
+    /* filter: brightness(0.4); */
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .serviceImgLaborSupport {
-    position: relative;
-    background-position: center;
-    display: block;
+  .brianna-image {
+    width: 100%;
+    height: 62vh;
     background-size: cover;
-    max-width: 100%;
-    height: auto;
-    height: 327px;
-    z-index: 1;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
   }
-
-  .p-text-container {
-    position: relative;
-    text-align: left;
-    padding: 10px 0px 10px 10px;
-    width: 60%;
-  }
-
-  .service-title {
-    text-align: left;
-    padding: 10px 0px 10px 10px;
-  
+  .service-image {
+    width: 100%;
+    height: 77vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
+    /* filter: brightness(0.4); */
   }
 }
+
+/* @media only screen and (max-width: 100px) {
+  .brianna-image {
+    width: 100%;
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  .service-image {
+    width: 100%;
+    height: 77vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    z-index: -1;
+    filter: brightness(0.4);
+  }
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
