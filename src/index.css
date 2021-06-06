@@ -261,67 +261,65 @@ nav {
 
 .service-text-container {
   text-align: center;
-  margin: 8rem;
+  margin: 6vh;
 
 }
 
-.dropdown {
-  height: auto;
-  /* background: white; */
-  /* display: column; */
-  justify-content: space-around;
+
+.menu {
+  /* width: 600px; */
+  overflow: hidden;
+  margin: 5vh;
 }
 
-.dropdown-container::before { 
+.item {
+  /* border-top: 1px solid; */
+  overflow: hidden;
+  list-style: none;
+}
+.menu-link {
   display: block;
-  height: auto;
-}
-
-.dropdown-container {
-  height: auto;
-}
-
-.dropdown-container p ,h5{
-  /* display: none; */
-}
-
-
-.dropdown-container ul {
+  padding: 16px 20px;
+  color: black;
   position: relative;
-  margin: auto;
-  height: auto;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-10px);
-  transition: all 0.4s ease;
-  display: visible;
 }
-
-.background {
-  /* background: #222; */
-  height: 100%;
+.menu-link:hover {
+  display: block;
+  padding: 16px 20px;
+  color: #013240;
+  text-decoration: none;
+  position: relative;
 }
-
-.dropdown button {
-  background: none;
-  border: none;
+.menu-link:before {
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+}
+.imenu {
+  overflow: hidden;
+  transition: max-height 0.4s;
+  max-height: 0;
+}
+.imenu p{
+  display: block;
+  padding: 16px 26px;
+  margin: 4px 0;
+  position: relative;
   color: white;
-  font-size: 18px;
+  background-color: rgb(75, 75, 75);
+  
+}
+.imenu p:before{
+  content: "";
+  position: absolute;
+  width: 6px;
+}
+.item:target .imenu {
+  max-height: 500px;
+
 }
 
-.dropdown button:hover {
-  color: rgb(75, 75, 75);
-}
 
-/* going over button, then adding style to the ul*/
-.dropdown-container button:focus + ul {
-  opacity: 1;
-  pointer-events: all;
-  transform: translateY(0px);
-}
 
 /* media queries */
 

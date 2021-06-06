@@ -3,6 +3,7 @@ import { Parallax } from 'react-parallax';
 
 // import components
 import Servicedropdown from '../../components/Servicedropdown';
+import ServicedropdownTwo from '../../components/ServicedropdownTwo';
 
 // import pictures
 import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg';
@@ -18,7 +19,8 @@ const Services = () => {
             Bundled packages are eligible for a discount.</p>
         </div>
 
-        <Servicedropdown />
+        {/* <Servicedropdown /> */}
+        <ServicedropdownTwo />
         </div>
     );
 }
