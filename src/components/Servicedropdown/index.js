@@ -4,27 +4,25 @@ function Servicedropdown() {
     return (
         <div className="dropdown">
 
-            <div className="expecting-dropdown">
-                <button>Birth Doula</button>
+            <div className="dropdown-container">
+                <button>+ Birth Doula</button>
                 <ul>
-                    <h5>Birth Doula</h5>
-                    <p>Establishing client relationship and determining birthing preferences and the best ways I can support you and your family before, during and after birth, as well as educating your partner on your specific coping mechanisms and your preferred comfort measures. This package includes: 
-                        -2 prenatal visits (up to 2 hours each visit)
-                        -1 postpartum visit (2 hours)
-                        -birth plan creation
-                        -untimed labor support
-                        -continuous support and contact throughout pregnancy
-                        -24/7 on call support starting at 38 weeks
+                        <p>Establishing client relationship and determining birthing preferences and the best ways I can support you and your family before, during and after birth, as well as educating your partner on your specific coping mechanisms and your preferred comfort measures. This package includes: 
+                            -2 prenatal visits (up to 2 hours each visit)
+                            -1 postpartum visit (2 hours)
+                            -birth plan creation
+                            -untimed labor support
+                            -continuous support and contact throughout pregnancy
+                            -24/7 on call support starting at 38 weeks
 
-                        Starting at $850 
-                    </p>                
+                            Starting at $850 
+                        </p>       
                 </ul>
             </div>
 
-            <div className="postpartum-dropdown">
-            <button>Classes</button>
+            <div className="dropdown-container">
+            <button>+ Classes</button>
                 <ul>
-                    <h5>Classes</h5>
                     <p>These “labor blueprint” courses are designed for parents considering home birth, hospital birth, unmedicated birth, freebirth, or anyone curious about the physiological processes (internal processes) of labor. 
                         -Childbirth Education (2 hours)
                         -what is physiological birth
@@ -37,10 +35,10 @@ function Servicedropdown() {
                 </ul>
             </div>
 
-            <div className="parenting-dropdown">
-            <button>Lactation Education</button>
+            <div className="dropdown-container">
+            <button>+ Lactation Education</button>
                 <ul>
-                <h5>Lactation Education (1.5 hours)</h5>
+                <h5>(1.5 hours)</h5>
                 <p>
                     It’s best to know how to breastfeed your baby before they’re here. This course is designed specifically for pregnant mothers and their partner to learn how to breastfeed and what is involved in the process. This no self-exposure course can be taken alone or with a partner. 
                     -proper latch techniques
@@ -53,10 +51,9 @@ function Servicedropdown() {
                 </ul>
             </div>
 
-            <div className="wellness-dropdown">
-            <button>Postpartum Lactation Support</button>
+            <div className="dropdown-container">
+            <button>+ Postpartum Lactation Support</button>
                 <ul>
-                    <h5>Postpartum Lactation Support</h5>
                     <p>
                         This service provides assessment & guidance or referrals for mothers needing lactation help. This is a starting point to evaluate what obstacles you and your child are encountering. 
                         -Assessment 
@@ -67,10 +64,10 @@ function Servicedropdown() {
                 </ul>
             </div>
 
-            <div className="wellness-dropdown">
-            <button>Babywearing Education</button>
+            <div className="dropdown-container">
+            <button>+ Babywearing Education</button>
                 <ul>
-                    <h5>Babywearing Education (45 minutes)</h5>
+                    <h5>(45 minutes)</h5>
                     <p>
                         This intro to babywearing class, is for everyone - pregnant or postpartum, it will give parents, grandparents, caregivers, etc. knowledge and confidence on how to wear baby safely, comfortably, and practically - so you can wear baby anywhere you want.  
                         -different types of carriers
@@ -82,10 +79,9 @@ function Servicedropdown() {
                 </ul>
             </div>
 
-            <div className="wellness-dropdown">
-            <button>Virtual Doula Office Hours</button>
+            <div className="dropdown-container">
+            <button>+ Virtual Doula Office Hours</button>
                 <ul>
-                    <h5>Virtual Doula Office Hours</h5>
                     <p>
                         Pay What You Can, $25 suggested
                         -45 minute video call 

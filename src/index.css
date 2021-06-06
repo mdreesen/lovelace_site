@@ -266,24 +266,30 @@ nav {
 }
 
 .dropdown {
-  height: 60vh;
+  height: auto;
   /* background: white; */
-  display: column;
+  /* display: column; */
   justify-content: space-around;
-
 }
 
-.expecting-dropdown, .postpartum-dropdown, .parenting-dropdown, .wellness-dropdown::after { 
+.dropdown-container::before { 
   display: block;
+  height: auto;
+}
+
+.dropdown-container {
+  height: auto;
+}
+
+.dropdown-container p ,h5{
+  /* display: none; */
 }
 
 
-.expecting-dropdown ul, .postpartum-dropdown ul, .parenting-dropdown ul, .wellness-dropdown ul {
-  /* position: absolute; */
-  bottom: 0px;
-  /* margin: 20px; */
-  /* width: 200px; */
-  /* height: 200px; */
+.dropdown-container ul {
+  position: relative;
+  margin: auto;
+  height: auto;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
@@ -291,23 +297,12 @@ nav {
   pointer-events: none;
   transform: translateY(-10px);
   transition: all 0.4s ease;
+  display: visible;
 }
 
-.expecting-dropdown ul, .postpartum-dropdown ul, .parenting-dropdown ul, .wellness-dropdown ul:after {
-  /* position: absolute; */
-  bottom: 0px;
-  /* margin: 20px; */
-  /* width: 200px; */
-  /* height: 200px; */
-  /* justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-10px);
-  transition: all 0.4s ease; */
-  height: 20px;
-  /* padding: 20px; */
+.background {
+  /* background: #222; */
+  height: 100%;
 }
 
 .dropdown button {
@@ -322,14 +317,10 @@ nav {
 }
 
 /* going over button, then adding style to the ul*/
-.expecting-dropdown button:focus + ul,
-.postpartum-dropdown button:focus + ul,
-.parenting-dropdown button:focus + ul,
-.wellness-dropdown button:focus + ul  {
+.dropdown-container button:focus + ul {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
-  /* padding: 20px; */
 }
 
 /* media queries */
