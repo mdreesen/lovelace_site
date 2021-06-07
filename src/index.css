@@ -18,13 +18,8 @@ nav {
   z-index: -1;
 }
 
-.logo-nav {
-  /* filter: brightness(160%); */
-  width: 12%;
-}
-
 .homepage-logo {
-  width: 90%;
+  width: 65%;
   margin-top: 30%;
 }
 
@@ -47,17 +42,51 @@ nav {
   padding-bottom: 1rem;
   width: 100%;
   font-size: 2rem;
-  background-color: black;
+  /* background-color: black; */
   opacity: .7;
-  position: absolute;
+  position: fixed;
+  transition: 0.4s;
+}
+
+.logo-nav {
+  /* filter: brightness(160%); */
+  width: 12%;
+  visibility: hidden;
+  background-color: none;
+}
+
+.scrolling-active {
+  background-color: #013240;
+  /* background-color: black; */
+  transition: 0.5s;
+  visibility: visible;
+}
+
+.scrolling-active .nav-link {
+  color: rgba(255,255,255,1);
+}
+
+.scrolling-logo-active {
+  transition: 0.2s;
+  visibility: visible;
+}
+
+.scrolling-active .hamburger-icon {
+  color: white;
 }
 
 .navbar-nav {
-  grid-column-gap: 2rem;
+  grid-column-gap: 6rem;
+  padding-right: 0;
+  font-size: 22px;
+  margin: 5px 0px;
+  padding-left: 0;
+  letter-spacing: 5px;
+  font-weight: 400;
 
 }
 .nav-link {
-  color: rgba(255,255,255,1);
+  color: black;
   padding: 0px;
 }
 
@@ -107,6 +136,7 @@ nav {
 }
 
 .logo-image-wrapper {
+  text-align: center;
   padding: 0px 0px 0px 0px;
 }
 
@@ -146,6 +176,18 @@ nav {
   justify-content: center;
   z-index: -1;
   /* filter: brightness(0.4); */
+}
+.contact-image {
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  z-index: -1;
+  object-fit: scale-down;
+}
+.react-parallax-bgimage .contact-image {
+  object-fit: scale-down;
 }
 
 .about-section-two {
@@ -316,9 +358,6 @@ nav {
   padding: 16px 26px;
   margin: 4px 0;
   position: relative;
-  /* color: white; */
-  /* background-color: rgb(75, 75, 75); */
-
 }
 .imenu p:before{
   content: "";
@@ -328,6 +367,29 @@ nav {
 .item:target .imenu {
   max-height: 500px;
 
+}
+
+/* Contact page */
+.icon-container{
+  height: 35vh;
+  justify-content: space-around;
+  vertical-align: auto;
+  margin: 10vh;
+}
+.icon-container span {
+  font-size: 20px;
+  /* position: absolute; */
+}
+.icon-container i {
+  margin-right: 10px;
+}
+.contact-content-container {
+  display: flex;
+}
+.contact-text-container {
+  height: 35vh;
+  margin: 10vh;
+  /* margin: 20vh; */
 }
 
 
@@ -372,27 +434,11 @@ nav {
     z-index: -1;
     /* filter: brightness(0.4); */
   }
+  .homepage-logo {
+    width: 95%;
+    margin-top: 50%;
 }
-
-/* @media only screen and (max-width: 100px) {
-  .brianna-image {
-    width: 100%;
-    height: 57vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-  }
-  .service-image {
-    width: 100%;
-    height: 77vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-    filter: brightness(0.4);
-  }
-} */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

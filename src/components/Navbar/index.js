@@ -8,12 +8,22 @@ import logo from '../../images/logo.png'
 
 const Navbar = () => {
 
+  window.addEventListener('scroll', function() {
+    let navbar = document.querySelector('nav');
+    let logo = document.querySelector('.logo-nav')
+    let windowPosition = window.scrollY > 90;
+
+    navbar.classList.toggle('scrolling-active', windowPosition);
+    logo.classList.toggle('scrolling-logo-active', windowPosition);
+
+  })
+
     return(
         <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
                   <img alt="logo wild beginnings" className="logo-nav" src={logo}></img>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img alt='small nav menu click to expand' src="https://img.icons8.com/cotton/64/000000/menu.png" />
+            <div className="hamburger-icon"><i className="fas fa-bars fa-lg" /></div>
           </button>
           <div className="navbar-link-container collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">

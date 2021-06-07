@@ -18,7 +18,6 @@ const Services = () => {
             Bundled packages are eligible for a discount.</p>
         </div>
 
-        {/* <Servicedropdown /> */}
         <Servicedropdown />
         </div>
     );
