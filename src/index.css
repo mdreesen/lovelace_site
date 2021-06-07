@@ -446,10 +446,12 @@ nav {
   }
   .icon-container {
     margin: 5vh 5vh 5vh 5vh;
+    height: 10vh;
+
   }
   .contact-text-container {
     margin: 5vh 5vh 5vh 5vh;
-    height: 10vh;
+    height: 15vh;
 
   }
 }
