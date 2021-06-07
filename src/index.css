@@ -446,12 +446,12 @@ nav {
   }
   .icon-container {
     margin: 5vh 5vh 5vh 5vh;
-    height: 10vh;
+    height: 38vh;
 
   }
   .contact-text-container {
     margin: 5vh 5vh 5vh 5vh;
-    height: 15vh;
+    height: 38vh;
 
   }
 }
@@ -467,7 +467,7 @@ nav {
   }
   .service-image {
     width: 100%;
-    height: 77vh;
+    height: 65vh;
     background-size: cover;
     background-position: center;
     justify-content: center;
