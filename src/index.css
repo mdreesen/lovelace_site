@@ -217,6 +217,7 @@ nav {
 
 .qualification-container {
   padding-left: 20px;
+  margin: 20px 0px;
 }
 .qualification {
   text-align: left;
@@ -375,6 +376,7 @@ nav {
   justify-content: space-around;
   vertical-align: auto;
   margin: 10vh;
+  color: black;
 }
 .icon-container span {
   font-size: 20px;
@@ -382,6 +384,13 @@ nav {
 }
 .icon-container i {
   margin-right: 10px;
+  color: black;
+  transition: 0.4s;
+}
+.icon-container i:hover {
+  margin-right: 10px;
+  color: white;
+  transition: 0.4s;
 }
 .contact-content-container {
   display: flex;

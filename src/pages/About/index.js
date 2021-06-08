@@ -13,8 +13,8 @@ const About = () => {
                 <div className="about-section-two">
                 <div className="about-text-container">
                     <div className="about-para-container">
+                    <h3 className="brianna-name-title">Hello, I’m Brianna Lovelace!</h3>
                     <div className="qualification-container">
-                        <h3 className="brianna-name-title">Hello, I’m Brianna Lovelace!</h3>
                         <h4 className="qualification">Doula Certificate</h4>
                         <h4 className="qualification">Childbirth Educator Certificate</h4>
                         <h4 className="qualification">Lactation Specialist Certificate</h4>
