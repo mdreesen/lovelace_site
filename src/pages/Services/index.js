@@ -10,7 +10,9 @@ import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg'
 const Services = () => {
     return(
         <div>
-        <Parallax className="service-image" bgImage={ servicehero } strength={500}></Parallax>
+        <Parallax className="service-image" bgImage={ servicehero } strength={550}>
+            <div className="parallax-content">Services</div>
+        </Parallax>
         <div className="service-text-container">
             <p>From Childbirth to lactation support to baby wearing training, 
             I am here to educate and assist expecting and postpartum mothers 

@@ -7,7 +7,9 @@ import contactImage from '../../images/andre-adjahoe-tqunk3qB_yU-unsplash.jpg';
 const Contact = () => {
     return (
         <div>
-            <Parallax className="contact-image" bgImage={contactImage} strength={500}></Parallax>
+            <Parallax className="contact-image" bgImage={contactImage} strength={550}>
+                <div className="parallax-content">Contact</div>
+            </Parallax>
 
             <div className="contact-content-container">
             <div className="contact-text-container">

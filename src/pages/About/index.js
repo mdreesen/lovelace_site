@@ -9,7 +9,9 @@ const About = () => {
     return (
         <div>
             <div className="about-container">
-                <Parallax className="brianna-image" bgImage={ briannaImage } strength={500}></Parallax>
+                <Parallax className="brianna-image" bgImage={ briannaImage } strength={550}>
+                    <div className="parallax-content">About</div>
+                </Parallax>
                 <div className="about-section-two">
                 <div className="about-text-container">
                     <div className="about-para-container">
