@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.14c58a01.chunk.css",
-    "main.js": "/static/js/main.33219ce5.chunk.js",
-    "main.js.map": "/static/js/main.33219ce5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d727b60b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d727b60b.js.map",
-    "static/js/2.0e7f0baa.chunk.js": "/static/js/2.0e7f0baa.chunk.js",
-    "static/js/2.0e7f0baa.chunk.js.map": "/static/js/2.0e7f0baa.chunk.js.map",
-    "static/js/3.77cf074b.chunk.js": "/static/js/3.77cf074b.chunk.js",
-    "static/js/3.77cf074b.chunk.js.map": "/static/js/3.77cf074b.chunk.js.map",
+    "main.css": "/static/css/main.c51769ee.chunk.css",
+    "main.js": "/static/js/main.34beb01c.chunk.js",
+    "main.js.map": "/static/js/main.34beb01c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb833eef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb833eef.js.map",
+    "static/js/2.297d33ed.chunk.js": "/static/js/2.297d33ed.chunk.js",
+    "static/js/2.297d33ed.chunk.js.map": "/static/js/2.297d33ed.chunk.js.map",
+    "static/js/3.750a2f29.chunk.js": "/static/js/3.750a2f29.chunk.js",
+    "static/js/3.750a2f29.chunk.js.map": "/static/js/3.750a2f29.chunk.js.map",
+    "static/js/4.79418ab7.chunk.js": "/static/js/4.79418ab7.chunk.js",
+    "static/js/4.79418ab7.chunk.js.map": "/static/js/4.79418ab7.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.14c58a01.chunk.css.map": "/static/css/main.14c58a01.chunk.css.map",
-    "static/js/2.0e7f0baa.chunk.js.LICENSE.txt": "/static/js/2.0e7f0baa.chunk.js.LICENSE.txt",
+    "static/css/main.c51769ee.chunk.css.map": "/static/css/main.c51769ee.chunk.css.map",
+    "static/js/2.297d33ed.chunk.js.LICENSE.txt": "/static/js/2.297d33ed.chunk.js.LICENSE.txt",
+    "static/media/andre-adjahoe-tqunk3qB_yU-unsplash.3fd714cd.jpg": "/static/media/andre-adjahoe-tqunk3qB_yU-unsplash.3fd714cd.jpg",
     "static/media/briannaNew.31d16935.jpeg": "/static/media/briannaNew.31d16935.jpeg",
     "static/media/dexter-chatuluka-OyvZbtXJRlA-unsplash.22dc21f4.jpg": "/static/media/dexter-chatuluka-OyvZbtXJRlA-unsplash.22dc21f4.jpg",
     "static/media/familyImage.2a17a931.jpeg": "/static/media/familyImage.2a17a931.jpeg",
-    "static/media/logo.bb732dbe.png": "/static/media/logo.bb732dbe.png"
+    "static/media/logo.png": "/static/media/logo.bb732dbe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d727b60b.js",
-    "static/js/2.0e7f0baa.chunk.js",
-    "static/css/main.14c58a01.chunk.css",
-    "static/js/main.33219ce5.chunk.js"
+    "static/js/runtime-main.fb833eef.js",
+    "static/js/2.297d33ed.chunk.js",
+    "static/css/main.c51769ee.chunk.css",
+    "static/js/main.34beb01c.chunk.js"
   ]
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -9,13 +9,16 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 
 // import components
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
+const Navbar = lazy(() => import('./components/Navbar'))
 
 function App() {
   return (
     <Router>
       <div className="App">
+      <Suspense fallback={<div/>}>
       <Navbar />
+      </Suspense>
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/services" component={Services}/>
