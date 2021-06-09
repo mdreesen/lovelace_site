@@ -22,7 +22,7 @@ const Contact = () => {
                     <div><a href='tel:+1-405.501.9515'><i className="fas fa-mobile-alt fa-2x" /></a> <span>405.501.9515</span></div>
                     <div><a href="mailto: doulabrianna@gmail.com"><i className="far fa-envelope fa-2x" /></a><span>doulabrianna@gmail.com</span></div>
                     <div><a href='https://www.facebook.com/wildbeginningsdoulacare'><i className="fab fa-facebook fa-2x" /></a><span>Wild Beginnings Birth</span></div>
-                    <div><a href='#'><i className="fab fa-instagram fa-2x" /></a><span>@doulabrianna</span></div>
+                    <div><a href='https://www.instagram.com/doulabrianna/'><i className="fab fa-instagram fa-2x" /></a><span>@doulabrianna</span></div>
                 </div>
             </div>
         </div>

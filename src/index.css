@@ -17,10 +17,15 @@ nav {
 .react-parallax-bgimage {
   z-index: -1;
 }
+.react-parallax-bgimage:before {
+  content: "";
+  background: black;
+  opacity: .9;
+}
 
 .homepage-logo {
   width: 65%;
-  margin-top: 30%;
+  /* margin-top: 30%; */
 }
 
 .homepage-statement-container {
@@ -107,6 +112,7 @@ nav {
   /* height: 70vh; */
   font-size: 60px;
   margin-top: 60vh;
+  color: white;
 }
 
 /* Homepage CSS */
@@ -438,7 +444,7 @@ nav {
     text-align: center;
     /* height: 70vh; */
     font-size: 60px;
-    margin-top: 45vh;
+    margin-top: 47vh;
   }
   .contact-image {
     width: 100%;
@@ -475,7 +481,7 @@ nav {
     text-align: center;
     /* height: 70vh; */
     font-size: 60px;
-    margin-top: 35vh;
+    margin-top: 46vh;
   }
   .icon-container {
     margin: 5vh 5vh 2vh 5vh;
