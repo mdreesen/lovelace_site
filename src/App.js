@@ -17,14 +17,16 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Suspense fallback={<div/>}>
-      <Navbar />
-      </Suspense>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/services" component={Services}/>
-        <Route exact path="/contact" component={Contact}/>
-        <Footer/>
+        <Suspense fallback={<div />}>
+          <Navbar />
+        </Suspense>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/services" component={Services} />
+        <Route exact path="/contact" component={Contact} />
+        <Suspense fallback={<div />}>
+          <Footer />
+        </Suspense>
       </div>
     </Router>
   );

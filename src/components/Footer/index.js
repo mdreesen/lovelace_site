@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -10,10 +10,10 @@ function Footer() {
                 <div className="icon-left">
                     <ul className="icon-column">
                         {/* <a className="footer-link"><Link to="">About</Link></a> */}
-                        {/* <a><Link to="/worker-login">worker login</Link></a> */}
+                        {/* <a><Link to="/worker-login"></Link></a> */}
                         {/* <a className="footer-link"><Link to="/" /></a> */}
 
-                        {/* <li className="footer-link">copyright of Wren&copy;</li> */}
+                        {/* <li className="footer-link">copyright of </li> */}
                     </ul>
                 </div>
                 <div className="icon-right">

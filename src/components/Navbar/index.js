@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
 
 // import logo
@@ -19,6 +19,7 @@ const Navbar = () => {
   })
 
     return(
+      <Suspense fallback={<div/>}>
         <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
                   <img alt="logo wild beginnings" className="logo-nav" src={logo}></img>
@@ -42,7 +43,8 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>      
+      </nav>   
+      </Suspense>   
     );
 }
 
