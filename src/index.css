@@ -48,13 +48,13 @@ nav {
   font-size: 2rem;
   position: fixed;
   transition: 0.4s;
-  background-color: #00807E;
+  background-color: #013240;
 }
 
 .logo-nav {
   /* filter: brightness(160%); */
   width: 10%;
-  visibility: hidden;
+  /* visibility: hidden; */
   /* background-color: none; */
 }
 
@@ -72,9 +72,14 @@ nav {
   color: rgba(255,255,255,1);
 }
 
-.scrolling-logo-active {
+/* .scrolling-logo-active {
   transition: 0.2s;
   visibility: visible;
+} */
+
+.hamburger-icon {
+  color: white;
+
 }
 
 .scrolling-active .hamburger-icon {
