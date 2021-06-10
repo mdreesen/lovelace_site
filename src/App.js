@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 // import components
 // import Navbar from './components/Navbar';
 const Navbar = lazy(() => import('./components/Navbar'))
+const Footer = lazy(() => import('./components/Footer'))
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/about" component={About}/>
         <Route exact path="/services" component={Services}/>
         <Route exact path="/contact" component={Contact}/>
+        <Footer/>
       </div>
     </Router>
   );

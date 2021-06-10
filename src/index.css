@@ -20,7 +20,6 @@ nav {
 .react-parallax-bgimage:before {
   content: "";
   background: black;
-  opacity: .9;
 }
 
 .homepage-logo {
@@ -47,22 +46,24 @@ nav {
   padding-bottom: 1rem;
   width: 100%;
   font-size: 2rem;
-  /* background-color: black; */
-  opacity: .7;
   position: fixed;
   transition: 0.4s;
+  background-color: #00807E;
 }
 
 .logo-nav {
   /* filter: brightness(160%); */
-  width: 12%;
+  width: 10%;
   visibility: hidden;
-  background-color: none;
+  /* background-color: none; */
+}
+
+.nav-link {
+  color: white;
 }
 
 .scrolling-active {
   background-color: #013240;
-  /* background-color: black; */
   transition: 0.5s;
   visibility: visible;
 }
@@ -91,13 +92,12 @@ nav {
 
 }
 .nav-link {
-  color: black;
+  color: rgba(255,255,255,1);
   padding: 0px;
 }
 
 .nav-link:hover {
   color: #013240;
-  /* filter: brightness(160%); */
 
 }
 
@@ -106,10 +106,17 @@ nav {
   justify-content: center;
 }
 
+.footer {
+  position: sticky;
+  background: rgba(255,255,255,1);
+  height: 5rem;
+  padding: 12px;
+  color: white;
+}
+
 .react-parallax-content {
   position: relative;
   text-align: center;
-  /* height: 70vh; */
   font-size: 60px;
   margin-top: 60vh;
   color: white;
@@ -125,7 +132,7 @@ nav {
   flex-wrap: wrap;
   padding: 15%;
   z-index: 9999;
-  height: 100vh;
+  height: 126vh;
 }
 
 .imgContainer {
@@ -156,7 +163,6 @@ nav {
 
 .logo-image {
   width: 100%;
-  /* filter: brightness(160%); */
 }
 
 .mission-header {
@@ -414,7 +420,17 @@ nav {
 .contact-text-container {
   height: 35vh;
   margin: 10vh;
-  /* margin: 20vh; */
+}
+
+.icon-container-footer {
+  display: flex;
+  color: black;
+  float: right;
+}
+.icon-container-footer i {
+  margin-right: 10px;
+  color: black;
+  transition: 0.4s;
 }
 
 
@@ -489,8 +505,8 @@ nav {
 
   }
   .contact-text-container {
-    margin: 5vh 5vh 5vh 5vh;
-    height: 38vh;
+    margin: 10vh 5vh;
+    height: 22vh;
 
   }
 }
@@ -535,6 +551,11 @@ nav {
   .homepage-logo {
     width: 95%;
     margin-top: 50%;
+  }
+  .logo-nav {
+    /* filter: brightness(160%); */
+    width: 15%;
+    background-color: none;
   }
 }
 
