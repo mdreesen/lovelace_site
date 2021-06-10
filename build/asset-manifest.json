@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.eefd6ccd.chunk.css",
+    "main.css": "/static/css/main.c361af1b.chunk.css",
     "main.js": "/static/js/main.79f721ad.chunk.js",
     "main.js.map": "/static/js/main.79f721ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.327c1e28.js",
@@ -16,7 +16,7 @@
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.eefd6ccd.chunk.css.map": "/static/css/main.eefd6ccd.chunk.css.map",
+    "static/css/main.c361af1b.chunk.css.map": "/static/css/main.c361af1b.chunk.css.map",
     "static/js/2.297d33ed.chunk.js.LICENSE.txt": "/static/js/2.297d33ed.chunk.js.LICENSE.txt",
     "static/media/andre-adjahoe-tqunk3qB_yU-unsplash.3fd714cd.jpg": "/static/media/andre-adjahoe-tqunk3qB_yU-unsplash.3fd714cd.jpg",
     "static/media/briannaNew.31d16935.jpeg": "/static/media/briannaNew.31d16935.jpeg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.327c1e28.js",
     "static/js/2.297d33ed.chunk.js",
-    "static/css/main.eefd6ccd.chunk.css",
+    "static/css/main.c361af1b.chunk.css",
     "static/js/main.79f721ad.chunk.js"
   ]
 }

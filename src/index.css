@@ -507,7 +507,6 @@ nav {
   .contact-text-container {
     margin: 10vh 5vh;
     height: 22vh;
-
   }
 }
 
@@ -556,6 +555,17 @@ nav {
     /* filter: brightness(160%); */
     width: 15%;
     background-color: none;
+  }
+
+  .topSection {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15%;
+    z-index: 9999;
+    height: 140vh;
   }
 }
 
