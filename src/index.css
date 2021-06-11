@@ -404,10 +404,19 @@ nav {
   color: black;
   min-width: 280px;
   vertical-align: text-bottom;
+  text-decoration: none;
 }
 .icon-container span {
   font-size: 20px;
-  /* position: absolute; */
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.icon-container span:hover {
+  font-size: 20px;
+  color: white;
+  transition: 0.4s;
+  text-decoration: none;
 }
 .icon-container i {
   margin-right: 10px;
@@ -418,6 +427,12 @@ nav {
   margin-right: 10px;
   color: white;
   transition: 0.4s;
+}
+.icon-container a:hover {
+  margin-right: 10px;
+  color: white;
+  transition: 0.4s;
+  text-decoration: none;
 }
 .contact-content-container {
   display: flex;

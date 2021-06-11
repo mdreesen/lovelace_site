@@ -112,7 +112,7 @@ function Servicedropdown() {
                     <a href='#virtualDoulaOfficeHours' className="menu-link">+ Virtual Doula Office Hours</a>
                     <div className="imenu">
                         <p>
-                            Pay What You Can, $25 suggested
+                            All services listed are available in-person, virtually or a combination of in-person and virtual visits for the same cost. Pay What You Can, $25 suggested.
                             <br />
                             - 45 minute video call
                             <br />
@@ -120,7 +120,6 @@ function Servicedropdown() {
                             <br />
                             - Perfect for expecting mothers looking to complement their birth education or focus on a specific topic
                             <br />
-                            All services listed are available in-person, virtually or a combination of in-person and virtual visits for the same cost.
                         </p>
                     </div>
                 </li>
