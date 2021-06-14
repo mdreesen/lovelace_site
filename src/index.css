@@ -452,6 +452,9 @@ nav {
   margin-top: 6px;
   text-align: center;
 }
+.icon-container-footer i:hover {
+  color: #013240;
+}
 
 .icon-container-footer {
   display: flex;
