@@ -114,9 +114,10 @@ nav {
 .footer {
   position: sticky;
   background: rgba(255,255,255,1);
-  height: 5rem;
+  height: 13vh;
   padding: 12px;
   color: white;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .react-parallax-content {
@@ -405,6 +406,8 @@ nav {
   min-width: 280px;
   vertical-align: text-bottom;
   text-decoration: none;
+  /* text-align: right; */
+  transition: 0.4s;
 }
 .icon-container span {
   font-size: 20px;
@@ -442,10 +445,20 @@ nav {
   margin: 10vh;
 }
 
+.footer-left {
+  color: black;
+  float: left;
+  /* line-height: 1; */
+  margin-top: 6px;
+  text-align: center;
+}
+
 .icon-container-footer {
   display: flex;
   color: black;
-  float: right;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 .icon-container-footer i {
   margin-right: 10px;
@@ -575,6 +588,13 @@ nav {
     /* filter: brightness(160%); */
     width: 15%;
     background-color: none;
+  }
+  .footer {
+    position: sticky;
+    background: rgba(255,255,255,1);
+    height: 16vh;
+    padding: 12px;
+    color: white;
   }
 
   .topSection {
