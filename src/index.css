@@ -27,10 +27,10 @@ nav {
   /* margin-top: 30%; */
 }
 
-.homepage-statement-container {
+/* .homepage-statement-container {
   margin-top: 12%;
   margin-bottom: 3rem;
-}
+} */
 
 .homepage-statement {
   margin-bottom: 3rem;
@@ -193,6 +193,7 @@ nav {
   background-position: center;
   justify-content: center;
   z-index: -1;
+  opacity: .9;
 }
 .service-image {
   width: 100%;
@@ -201,7 +202,7 @@ nav {
   background-position: center;
   justify-content: center;
   z-index: -1;
-  /* filter: brightness(0.4); */
+  opacity: .8;
 }
 .contact-image {
   width: 100%;
@@ -211,6 +212,8 @@ nav {
   justify-content: center;
   z-index: -1;
   object-fit: scale-down;
+  /* filter: brightness(0.5); */
+  opacity: .9;
 }
 .react-parallax-bgimage .contact-image {
   object-fit: scale-down;

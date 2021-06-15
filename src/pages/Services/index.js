@@ -5,13 +5,18 @@ import { Parallax } from 'react-parallax';
 import Servicedropdown from '../../components/Servicedropdown';
 
 // import pictures
-import servicehero from '../../images/dexter-chatuluka-OyvZbtXJRlA-unsplash.jpg';
+import servicehero from '../../images/eibner-saliba-zhWUl24kf5A-unsplash.jpg';
 
 const Services = () => {
+
+        const darkenImage = {
+            background: 'rgba(0,0,0,0.7'
+        }
+
     return (
         <Suspense fallback={<div />}>
             <div>
-                <Parallax className="service-image" bgImage={servicehero} strength={550}>
+                <Parallax style={darkenImage} className="service-image" bgImage={servicehero} strength={550}>
                     <div className="parallax-content">Services</div>
                 </Parallax>
                 <div className="service-text-container">
