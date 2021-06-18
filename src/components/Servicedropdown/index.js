@@ -16,11 +16,11 @@ function Servicedropdown() {
                             <br/>
                             - 1 postpartum visit (2 hours)
                             <br/>
-                            - birth plan creation
+                            - Birth plan creation
                             <br/>
-                            - unlimited labor support
+                            - Unlimited labor support
                             <br/>
-                            - continuous support and contact throughout pregnancy
+                            - Continuous support and contact throughout pregnancy
                             <br/>
                             - 24/7 on call support starting at 38 weeks
                             <br/>
@@ -38,11 +38,11 @@ function Servicedropdown() {
                             <br />
                             - Childbirth Education (2 hours)
                             <br />
-                            - what is physiological birth
+                            - What is physiological birth
                             <br />
-                            - hormones of birth
+                            - Hormones of birth
                             <br />
-                            - what undisturbed birth looks like
+                            - What undisturbed birth looks like
                             <br />
                             - Q&amp; A at the end of each class
                             <br />
@@ -60,13 +60,13 @@ function Servicedropdown() {
                             <br/>
                             It’s best to know how to breastfeed your baby before they’re here. This course is designed specifically for pregnant mothers and their partner to learn how to breastfeed and what is involved in the process. This no self-exposure course can be taken alone or with a partner.
                             <br/>
-                            - proper latch techniques
+                            - Proper latch techniques
                             <br/>
-                            - newborn through toddlerhood breastfeeding
+                            - Newborn through toddlerhood breastfeeding
                             <br/>
-                            - troubleshooting common issues
+                            - Troubleshooting common issues
                             <br/>
-                            - when and how to seek further support
+                            - When and how to seek further support
                             <br/>
                             Starting at $100 (available in group and individuals settings)
                         </p>
@@ -82,7 +82,7 @@ function Servicedropdown() {
                             <br />
                             - Assessment
                             <br />
-                            - Advice and hands-on help with positioning, latching and more.
+                            - Advice and hands-on help with positioning, latching and more
                             <br />
                             Starting at $40 per hour
                         </p>
@@ -96,11 +96,11 @@ function Servicedropdown() {
                         <p>
                             This intro to babywearing class, is for everyone - pregnant or postpartum, it will give parents, grandparents, caregivers, etc. knowledge and confidence on how to wear baby safely, comfortably, and practically - so you can wear baby anywhere you want.
                             <br />
-                            - different types of carriers
+                            - Different types of carriers
                             <br />
-                            - newborn through toddlerhood babywearing
+                            - Newborn through toddlerhood babywearing
                             <br />
-                            - babywearing safety
+                            - Babywearing safety
                             <br />
                             Starting at $60
                         </p>
