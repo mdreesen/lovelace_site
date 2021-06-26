@@ -18,7 +18,7 @@ const Services = () => {
         <Suspense fallback={<div />}>
             <div>
                 <Parallax style={darkenImage} className="service-image" bgImage={servicehero} strength={200}>
-                <div style={{height: "100vh"}}>
+                <div style={{height: "70vh"}}>
                         <div className="parallax-content" style={{height: "80vh"}}>Services</div>
                     </div>
                 </Parallax>

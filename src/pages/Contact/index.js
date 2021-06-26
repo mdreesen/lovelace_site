@@ -10,7 +10,7 @@ const Contact = () => {
         <Suspense fallback={<div />}>
             <div>
                 <Parallax className="contact-image" bgImage={contactImage} strength={200}>
-                <div style={{height: "100vh"}}>
+                <div style={{height: "70vh"}}>
                         <div className="parallax-content">Contact</div>
                     </div>
                 </Parallax>
