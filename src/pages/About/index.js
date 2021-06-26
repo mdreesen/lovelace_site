@@ -45,7 +45,7 @@ const About = () => {
                         I had a great experience at home and went on to birth the same way for my third baby.</p>
 
                                 <p className="about-text-three">It was after I had my second child that I finally decided to step out and become a doula.
-                                I saw that our natural-minded, freebirth & BIPOC communities need more birthing support during this amazing season of pregnancy.
+                                I see that our natural-minded, freebirth & BIPOC communities needed more birthing support during this amazing season of pregnancy.
                                 Black women have a higher c-section rate and both women and their babies have a much higher mortality when not using a doula for support.
                         I want to help influence those positive outcomes and support mothers and fathers through the process.</p>
 
