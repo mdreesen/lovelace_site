@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Parallax } from 'react-parallax';
+import 'aos/dist/aos.css';
 
 // import components
 import Servicedropdown from '../../components/Servicedropdown';
@@ -16,10 +17,12 @@ const Services = () => {
     return (
         <Suspense fallback={<div />}>
             <div>
-                <Parallax style={darkenImage} className="service-image" bgImage={servicehero} strength={550}>
-                    <div className="parallax-content">Services</div>
+                <Parallax style={darkenImage} className="service-image" bgImage={servicehero} strength={200}>
+                <div style={{height: "100vh"}}>
+                        <div className="parallax-content">Services</div>
+                    </div>
                 </Parallax>
-                <div className="service-text-container">
+                <div className="service-text-container" data-aos="fade-in">
                     <p>From Childbirth to lactation support to baby wearing training,
                     I am here to educate and assist expecting and postpartum mothers
                     find care and assistance with perinatal services while respecting their autonomy.

@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Parallax } from 'react-parallax';
+import 'aos/dist/aos.css';
 
 // import image
 import contactImage from '../../images/andre-adjahoe-tqunk3qB_yU-unsplash.jpg';
@@ -8,11 +9,13 @@ const Contact = () => {
     return (
         <Suspense fallback={<div />}>
             <div>
-                <Parallax className="contact-image" bgImage={contactImage} strength={550}>
-                    <div className="parallax-content">Contact</div>
+                <Parallax className="contact-image" bgImage={contactImage} strength={200}>
+                <div style={{height: "100vh"}}>
+                        <div className="parallax-content">Contact</div>
+                    </div>
                 </Parallax>
 
-                <div className="contact-content-container">
+                <div className="contact-content-container" data-aos="fade-in">
                     <div className="contact-text-container">
                         <p>Feel free to find us on Facebook or Instagram to get to know us a little more.
                         If you feel Wild Beginnings Birth might be a good fit to serve your growing family,
