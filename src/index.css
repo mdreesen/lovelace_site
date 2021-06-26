@@ -9,10 +9,6 @@ body {
 }
 
 /* Navbar CSS */
-/* nav {
-  position: absolute;
-  background: c;
-} */
 
 .react-parallax-bgimage {
   height: 100vh;
@@ -28,13 +24,9 @@ body {
 }
 
 .homepage-statement-container {
-  margin-top: 10%;
+  margin-top: 20%;
   padding: 30px;
   text-align: center;
-}
-
-.homepage-statement {
-  /* margin-bottom: 3rem; */
 }
 
 .navbar {
@@ -54,10 +46,7 @@ body {
 }
 
 .logo-nav {
-  /* filter: brightness(160%); */
   width: 10%;
-  /* visibility: hidden; */
-  /* background-color: none; */
 }
 
 .nav-link {
@@ -73,11 +62,6 @@ body {
 .scrolling-active .nav-link {
   color: rgba(255,255,255,1);
 }
-
-/* .scrolling-logo-active {
-  transition: 0.2s;
-  visibility: visible;
-} */
 
 .hamburger-icon {
   color: white;
@@ -126,22 +110,11 @@ body {
   position: relative;
   text-align: center;
   font-size: 60px;
-  margin-top: 60vh;
+  margin-top: 80vh;
   color: white;
 }
 
 /* Homepage CSS */
-
-/* .topSection {
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 15%;
-  z-index: 9999;
-  height: 126vh;
-} */
 
 .section-one {
   height: 100vh;
@@ -169,7 +142,6 @@ body {
 .image-wrapper-home {
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
   text-align: center;
 }
 
@@ -218,7 +190,6 @@ body {
   justify-content: center;
   z-index: -1;
   object-fit: scale-down;
-  /* filter: brightness(0.5); */
   opacity: .9;
 }
 .react-parallax-bgimage .contact-image {
@@ -454,7 +425,6 @@ body {
 .footer-left {
   color: black;
   float: left;
-  /* line-height: 1; */
   margin-top: 6px;
   text-align: center;
 }
@@ -479,64 +449,9 @@ body {
 
 /* media queries */
 
-@media only screen and (max-width: 1080px) {
-  /* .brianna-image {
-    width: 100%;
-    height: 65vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-  } */
-  /* .service-image {
-    width: 100%;
-    height: 65vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-  } */
-  .react-parallax-content {
-    position: relative;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 47vh;
-  }
-  /* .contact-image {
-    width: 100%;
-    height: 95vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-    object-fit: scale-down;
-  } */
-  /* .react-parallax-bgimage .contact-image {
-    object-fit: scale-down;
-  } */
-}
-
 @media only screen and (max-width: 750px) {
-  /* .contact-image {
-    width: 100%;
-    height: 73vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-    object-fit: scale-down;
-  } */
-  /* .react-parallax-bgimage .contact-image {
-    object-fit: scale-down;
-  } */
   .contact-content-container {
     display: block;
-  }
-  .react-parallax-content {
-    position: relative;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 46vh;
   }
   .icon-container {
     margin: 5vh 5vh 2vh 5vh;
@@ -550,41 +465,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  /* .brianna-image {
-    width: 100%;
-    height: 62vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-  } */
-  /* .service-image {
-    width: 100%;
-    height: 62vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-  } */
-  /* .contact-image {
-    width: 100%;
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    z-index: -1;
-    object-fit: scale-down;
-  } */
-  /* .react-parallax-bgimage .contact-image {
-    object-fit: scale-down;
-  } */
-  .react-parallax-content {
-    position: relative;
-    text-align: center;
-    /* height: 70vh; */
-    font-size: 60px;
-    margin-top: 45vh;
-  }
 
   .homepage-logo {
     margin-top: 70%;
