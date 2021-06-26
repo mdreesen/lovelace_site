@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
+// import $ from 'jquery';
 
 // import logo
 import logo from '../../images/logo.png'
@@ -7,16 +8,6 @@ import logo from '../../images/logo.png'
 
 
 const Navbar = () => {
-
-  // window.addEventListener('scroll', function() {
-  //   let navbar = document.querySelector('nav');
-  //   let logo = document.querySelector('.logo-nav')
-  //   let windowPosition = window.scrollY > 90;
-
-  //   navbar.classList.toggle('scrolling-active', windowPosition);
-  //   logo.classList.toggle('scrolling-logo-active', windowPosition);
-
-  // })
 
     return(
       <Suspense fallback={<div/>}>
