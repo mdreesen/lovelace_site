@@ -12,7 +12,7 @@ const About = () => {
         <div>
             <div className="about-container">
                 <Parallax className="brianna-image" bgImage={briannaImage} strength={200}>
-                    <div style={{height: "100vh"}}>
+                    <div style={{height: "70vh"}}>
                         <div className="parallax-content">About</div>
                     </div>
                 </Parallax>
