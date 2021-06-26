@@ -10,16 +10,12 @@ import servicehero from '../../images/eibner-saliba-zhWUl24kf5A-unsplash.jpg';
 
 const Services = () => {
 
-        const darkenImage = {
-            background: 'rgba(0,0,0,0.7'
-        }
-
     return (
         <Suspense fallback={<div />}>
             <div>
-                <Parallax style={darkenImage} className="service-image" bgImage={servicehero} strength={200}>
+                <Parallax className="service-image" bgImage={servicehero} strength={200}>
                 <div style={{height: "70vh"}}>
-                        <div className="parallax-content" style={{height: "80vh"}}>Services</div>
+                        <div className="parallax-content">Services</div>
                     </div>
                 </Parallax>
                 <div className="service-text-container" data-aos="fade-in">
