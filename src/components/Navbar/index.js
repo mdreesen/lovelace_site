@@ -1,13 +1,17 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
-// import $ from 'jquery';
+import $ from 'jquery';
 
 // import logo
 import logo from '../../images/logo.png'
 
-
-
 const Navbar = () => {
+
+  $(document).ready(function(){
+    $(".navbar-nav li.-collapse").click(function(event){
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
 
     return(
       <Suspense fallback={<div/>}>

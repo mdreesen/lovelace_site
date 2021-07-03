@@ -43,6 +43,7 @@ body {
   transition: 0.4s;
   background-color: #013240;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 100;
 }
 
 .logo-nav {
@@ -356,6 +357,7 @@ body {
   overflow: hidden;
   transition: max-height 0.4s;
   max-height: 0;
+  z-index: 1;
 }
 .imenu p{
   display: block;

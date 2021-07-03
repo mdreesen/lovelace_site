@@ -9,7 +9,6 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 
 // import components
-// import Navbar from './components/Navbar';
 const Navbar = lazy(() => import('./components/Navbar'))
 const Footer = lazy(() => import('./components/Footer'))
 
